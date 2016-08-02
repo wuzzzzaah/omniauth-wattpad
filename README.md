@@ -1,8 +1,6 @@
 # Omniauth::Wattpad
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/omniauth/wattpad`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+An Omniauth strategy for Wattpad
 
 ## Installation
 
@@ -22,7 +20,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+This guide assumes that you are using Devise 
+
+In your devise.rb
+
+```
+config.omniauth :wattpad, wattpad_api_key, wattpad_redirect_uri
+```
+
+## Disclaimer
+No specs yet and only tested manually. To add if and when wattpad api actually has more info.
 
 ## Development
 
@@ -32,8 +39,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/omniauth-wattpad. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
+Bug reports and pull requests are welcome on GitHub at https://github.com/wuzzzzaah/omniauth-wattpad. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
